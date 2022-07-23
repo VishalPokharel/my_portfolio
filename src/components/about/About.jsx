@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/newprofile.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -22,27 +22,26 @@ const About = () => {
 
             <article className='about__card'>
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>3+ years experience</small>
+              <h5>Education</h5>
+              <small>B.E. in Computer Engineering, Pulchowk Campus</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Interest</h5>
+              <small>Literature  Cricket</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>80+ completed</small>
+              <small>5+ completed</small>
             </article>
 
 
           </div>
            <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, nobis recusandae atque quibusdam eum libero. Ex sed nisi ratione voluptatibus ducimus? Alias aliquid neque laboriosam possimus non in quia minus?
-          
+            Hello!I am Vishal Pokhare. I am currently studying Bachelors in Computer Engineering.
            </p>
            <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
